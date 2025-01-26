@@ -7,6 +7,8 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <!-- Link FontAwesome Cdn  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+
+    
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body class="font-roboto">
@@ -30,7 +32,7 @@
             <!-- Hero Section  -->
             <div class="hero_section flex flex-col md:flex-row mt-8">
                 <div class="hero_content basis-2/5 flex flex-col justify-center">
-                    <h1 class="text-7xl font-bebas-neue"><span class="text-orange-400">Be the Penguins</span><br>of Winter</h1>
+                    <h1 class="text-7xl font-bebas-neue text-[#363958]"><span class="text-orange-400">Be the Penguins</span><br>of Winter</h1>
                     <p class="text-gray-800 my-2">Welcome our penguin fashion store. You can choose your favourite jackets and more things</p>
                     <div class="hero_btn">
                     <button type="button" class="bg-gradient-to-b from-[#A4BC46] to-[#85A019] font-medium text-white px-9 py-5 uppercase rounded-lg cursor-pointer"><span class="text-white inline-block mr-2"><i class="fa-solid fa-cart-shopping"></i></span>Buy Now</button>
@@ -136,6 +138,46 @@
                         <h1 class="text-4xl text-orange-400 font-bold md:mb-2 lg:mb-0">$234</h1>
                         <button type="button" class="bg-gradient-to-b from-[#A4BC46] to-[#85A019] font-medium text-white px-6 py-3 uppercase rounded-lg cursor-pointer"><span class="text-white inline-block mr-2"><i class="fa-solid fa-cart-shopping"></i></span>Buy Now</button>
                     </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Shopping Section  -->
+        <section class="shopping_section my-32">
+            <div class="md:w-4/5 w-11/12 mx-auto lg:flex justify-between">
+                <div class="shopping_content basis-1/2 lg:pr-20">
+                    <div class="shopping_info flex items-center gap-x-8 pl-5 py-6 pr-10 rounded-xl shadow-md">
+                        <div class="shop_info_img basis-1/4">
+                            <img src="./icons/house.png" class="w-full" alt="">
+                        </div>
+                        <div class="shop_info_des grow">
+                            <h3 class="text-[#363958] text-2xl font-bold">Find the Perfect Fit</h3>
+                            <p class="text-[#3E3E3E] mt-3 leading-7">Everybody is different, which is why we offer styles for every body.</p>
+                        </div>
+                    </div>
+                    <div class="shopping_info flex items-center gap-x-8 pl-5 py-6 pr-10 rounded-xl shadow-md">
+                        <div class="shop_info_img basis-1/4">
+                            <img src="./icons/box.png" class="w-full" alt="">
+                        </div>
+                        <div class="shop_info_des grow">
+                            <h3 class="text-[#363958] text-2xl font-bold">Free Exchanges</h3>
+                            <p class="text-[#3E3E3E] mt-3 leading-7">One of the many reasons you can shop
+                                with peace of mind.</p>
+                        </div>
+                    </div>
+                    <div class="shopping_info flex items-center gap-x-8 pl-5 py-6 pr-10 rounded-xl shadow-md">
+                        <div class="shop_info_img basis-1/4">
+                            <img src="./icons/question.png" class="w-full" alt="">
+                        </div>
+                        <div class="shop_info_des grow">
+                            <h3 class="text-[#363958] text-2xl font-bold">Contact Our Seller</h3>
+                            <p class="text-[#3E3E3E] mt-3 leading-7">They are here to help you. That's quite literally what we pay them for.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="shopping_img basis-1/2 flex items-center lg:mt-0 mt-16">
+                    <img src="./images/shopping.png" class="w-full" alt="">
                 </div>
             </div>
         </section>
